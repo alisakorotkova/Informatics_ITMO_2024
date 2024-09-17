@@ -30,12 +30,14 @@ ITMO University
 ```bash
 touch script.bash
 ```
+<img width="800" src="images/im1.png"/>
 
 2. Открыла созданный файл `script.bash` в текстовом редакторе в Linux Ubuntu это `gedit`
 
 ```bash
 gedit script.bash
 ```
+<img width="800" src="images/im2.png"/>
 
 3. Вписала следующий скрипт
 
@@ -44,13 +46,18 @@ gedit script.bash
 
 echo "Welcome to ITMO University"
 ```
+<img width="800" src="images/im3.png"/>
+
 4. Сохранила файл и закрыла текстовый редактор `gedit`. Запустила bash-скрипт, выполнив в терминале
 
 ```bash
 bash script.bash
 ```
 
-5. В терминале отобразилась строка `Welcome to ITMO University`
+В терминале отобразилась строка `Welcome to ITMO University`
+
+<img width="800" src="images/im4.png"/>
+
 
 
 ### Задача
@@ -60,7 +67,7 @@ bash script.bash
 ```bash
 gedit script.bash
 ```
-
+<img width="800" src="images/im5.png"/>
 
 2. Вписала следующий скрипт
 
@@ -68,7 +75,9 @@ gedit script.bash
 #!/bin/bash
 name="$@"
 echo "Welcome, $name"
-``` 
+```
+<img width="800" src="images/im6.png"/>
+
 !!!!
 
 3. Сохранила файл и закрыла текстовый редактор `gedit`. Запустила bash-скрипт, выполнив в терминале
@@ -80,10 +89,12 @@ bash script.bash Vasya Pupkin
 
 `Welcome, Vasya Pupkin`
 
+<img width="800" src="images/im8.png"/>
+
 4. Протестировала команду еще раз, чтобы убедиться, что все точно работает, выполнив в терминале
    
 ```bash
 bash script.bash Alisa Korotkova
 ```
-
+<img width="800" src="images/im7.png"/>
 
